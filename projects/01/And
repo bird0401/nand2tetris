@@ -1,0 +1,57 @@
+And
+0 0  0 
+0 1  0
+1 0  0
+1 1  1
+
+Nand
+0 0  1 
+0 1  1
+1 0  1
+1 1  0
+
+Xor
+0 0  0 
+0 1  1
+1 0  1
+1 1  0
+
+Or
+0 0  0 
+0 1  1
+1 0  1
+1 1  1
+
+Dmux
+0 0  0 0
+1 0  1 0
+0 1  0 0 
+1 1  0 1
+
+a xor b = a or b and a nand b
+
+
+(a Nand b) Nand (a Nand b)
+
+nand=not(a and b)
+not a or not b
+
+a or b
+not a and not b
+
+000 0 
+010 0
+100 1
+110 1
+001 0
+011 1
+101 0
+111 1
+ 
+AB 00 01 11 10
+S  
+0        1  1
+1     1  1 
+
+AnotS or BS
+
